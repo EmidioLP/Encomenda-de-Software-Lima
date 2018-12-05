@@ -296,13 +296,11 @@ int main(){
 		cin >> opcao;
 		
 		switch(opcao){
-			case 1: 
-            L1 = insere(L1);
+			case 1: L1 = insere(L1);
 					break;
 			case 2: excluirQualquerLugar(L1);
 					break;
-			case 3: 
-                    Imprime(L1); 
+			case 3: Imprime(L1); 
 					break;
 			case 4: busca(L1);
 					break;
