@@ -193,7 +193,6 @@ ListaD *excluirQualquerLugar(ListaD *LD){
 			}
 			CP = CP->prox;
 		}
-    delete CP;
 	return LD;	
 	}
 
